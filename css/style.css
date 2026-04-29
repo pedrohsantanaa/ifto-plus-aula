@@ -95,3 +95,28 @@ body{
     margin-top: 0.3rem;
     display: inline-block;
 }
+
+@media screen and (max-width: 768px){
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+    .container__caixa{
+        margin: 2rem;
+    }
+
+    .container__imagem{
+        width: 50vw;
+    }
+    .secundario{
+        text-align: center;
+        margin: 0;
+    }
+
+    .secundario_imagem{
+        width: 50vw;
+    }
+
+
+}
